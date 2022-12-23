@@ -1,1 +1,6 @@
 # ebal
+
+The present work proposes a method for continuous localization of a moving acoustic source based on energy measurements in the application of detecting/preventing wildfires. The main focus is on the case in which the acoustic sensors are located on a drone, i.e., when they are also in motion. This localization setting is more challenging than the classical one in which the sensors are typically static (anchors) or have slow dynamics compared with the source. The proposed solution consists of an extended Kalman filter (EKF) that deals with non-linearities and singularities in the acoustic observation model, as well as the dynamic trajectory of the sensors. Performed simulations corroborate its feasibility in different noisy environments and illustrate its superiority over techniques that do not consider process states’ prior knowledge.
+
+Cite as:
+S. D. Correia, J. Fé, S. Tomic, M. Beko (2022). "Drones as Sound Sensors for Energy-Based Acoustic Tracking on Wildfire Environments." In: Camarinha-Matos, L.M., Heijenk, G., Katkoori, S., Strous, L. (eds) Internet of Things. Technology and Applications. IFIPIoT 2021. IFIP Advances in Information and Communication Technology, vol 641. Springer, Cham. DOI: 10.1007/978-3-030-96466-5_8
