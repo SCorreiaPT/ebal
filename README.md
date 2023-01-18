@@ -1,4 +1,4 @@
-# ebal
+# Energy-Basec Acoustic Localization
 
 The present work proposes a method for continuous localization of a moving acoustic source based on energy measurements in the application of detecting/preventing wildfires. The main focus is on the case in which the acoustic sensors are located on a drone, i.e., when they are also in motion. This localization setting is more challenging than the classical one in which the sensors are typically static (anchors) or have slow dynamics compared with the source. The proposed solution consists of an extended Kalman filter (EKF) that deals with non-linearities and singularities in the acoustic observation model, as well as the dynamic trajectory of the sensors. Performed simulations corroborate its feasibility in different noisy environments and illustrate its superiority over techniques that do not consider process states’ prior knowledge.
 
